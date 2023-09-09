@@ -3,10 +3,10 @@ function getRandomHexColor() {
     .toString(16)
     .padStart(6, 0)}`;
 }
-const controls = document.getElementById("controls");
+const controls = document.querySelector("#controls");
 const createButton = controls.querySelector("[data-create]");
 const destroyButton = controls.querySelector("[data-destroy]");
-const boxesContainer = document.getElementById("boxes");
+const boxesContainer = document.querySelector("#boxes");
 
 createButton.addEventListener("click", createBoxes);
 destroyButton.addEventListener("click", destroyBoxes);

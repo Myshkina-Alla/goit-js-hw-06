@@ -14,4 +14,3 @@ const markup = ingredients.map((item) => {
   return liElements;
 });
 container.append(...markup);
-console.log(container);

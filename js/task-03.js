@@ -21,5 +21,3 @@ const markup = images
   .join("");
 
 photos.insertAdjacentHTML("afterbegin", markup);
-
-console.dir(photos);
